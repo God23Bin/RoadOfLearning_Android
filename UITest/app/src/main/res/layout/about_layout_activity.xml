@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--关于属性   android:layout_gravity-->
+<!--    <Button-->
+<!--        android:id="@+id/button1_Linear"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="top"-->
+<!--        android:text="按钮1" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2_Linear"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:text="按钮2" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button3_Linear"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:text="按钮3" />-->
+
+    <EditText
+        android:id="@+id/input_msg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="给对方发发消息吧" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="发送消息" />
+
+    <Button
+        android:id="@+id/button_toRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="去RelativeLayout" />
+
+</LinearLayout>

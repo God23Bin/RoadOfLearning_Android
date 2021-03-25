@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1_Relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3_Relative"
+        android:layout_toLeftOf="@+id/button3_Relative"
+        android:text="按钮1" />
+
+    <Button
+        android:id="@+id/button2_Relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3_Relative"
+        android:layout_toRightOf="@+id/button3_Relative"
+        android:text="按钮2" />
+
+    <Button
+        android:id="@+id/button3_Relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="按钮3" />
+
+    <Button
+        android:id="@+id/button4_Relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="按钮4" />
+
+    <Button
+        android:id="@+id/button5_Relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="按钮5" />
+
+</RelativeLayout>
