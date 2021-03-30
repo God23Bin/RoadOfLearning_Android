@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <cn.jzvd.JzvdStd
+        android:id="@+id/item_community_jzvd"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        >
+
+    </cn.jzvd.JzvdStd>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/item_community_tv_name"
+            android:layout_width="210dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="7dp"
+            android:padding="8dp"
+            android:text="Anyone"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_community_tv_favorite"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@mipmap/icon_favorite"
+            android:text="1234"
+            android:textSize="12dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/item_community_tv_play"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/icon_play"
+            android:layout_toLeftOf="@+id/item_community_tv_favorite"
+            android:drawablePadding="5dp"
+            android:layout_marginRight="10dp"
+            android:text="12345"
+            android:textSize="12dp"
+            android:layout_centerVertical="true"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

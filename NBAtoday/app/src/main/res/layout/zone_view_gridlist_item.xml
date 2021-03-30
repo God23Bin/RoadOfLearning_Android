@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/zone_list_item_iv"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@mipmap/lalakers"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/zone_list_item_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湖人"
+        android:layout_below="@+id/zone_list_item_iv"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/zone_list_item_des_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8620000粉丝"
+        android:layout_below="@+id/zone_list_item_name_tv"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

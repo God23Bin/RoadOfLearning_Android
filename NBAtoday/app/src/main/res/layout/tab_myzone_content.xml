@@ -1,0 +1,24 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/myzone_pg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.PagerTitleStrip
+            android:id="@+id/pagertitle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:paddingHorizontal="15dp"
+            />
+        
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout >
