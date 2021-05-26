@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xmlns:app="http://schemas.android.com/apk/res-auto" 指定了新的命名空间，下面才能使用app:attribute的写法，比如app:popupTheme-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    
+    <com.bin23.music.views.InputView
+        android:id="@+id/input_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_icon="@mipmap/phone"
+        app:input_hint="手机号"
+        app:is_password="false"
+        >
+
+    </com.bin23.music.views.InputView>
+
+</LinearLayout>
