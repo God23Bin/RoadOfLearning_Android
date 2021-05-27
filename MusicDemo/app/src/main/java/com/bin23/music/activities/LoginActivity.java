@@ -3,6 +3,7 @@ package com.bin23.music.activities;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.bin23.music.R;
 
@@ -21,5 +22,26 @@ public class LoginActivity extends BaseActivity {
      */
     private void initView() {
         initToolBar(false, "欢迎登录~");
+    }
+
+    /**
+     * 登录
+     */
+    public void onCommitClick(View view) {
+
+    }
+
+    /**
+     * 注册
+     */
+    public void onRegisterClick(View view) {
+
+    }
+
+    /**
+     * 忘记密码
+     */
+    public void onForgetPwClick(View view) {
+
     }
 }
