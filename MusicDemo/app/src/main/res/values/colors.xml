@@ -6,4 +6,8 @@
 
     <!-- 定义自己的主色调 -->
     <color name="mainColor">#d43433</color>
+    <!-- 定义分割线颜色 -->
+    <color name="lineColor">#c3c3c3</color>
+    <!-- 高亮主色调 -->
+    <color name="mainColorH">#c80f1f</color>
 </resources>
