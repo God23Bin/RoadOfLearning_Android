@@ -17,7 +17,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         />
-    
+
+    <!-- 自定义的输入控件 -->
     <com.bin23.music.views.InputView
         android:id="@+id/input_phone"
         android:layout_width="match_parent"
@@ -29,5 +30,62 @@
         >
 
     </com.bin23.music.views.InputView>
+
+    <!-- 分割线的引用 -->
+    <View style="@style/line" />
+
+    <com.bin23.music.views.InputView
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_icon="@mipmap/password"
+        app:input_hint="密码"
+        app:is_password="true"
+        >
+
+    </com.bin23.music.views.InputView>
+
+    <View style="@style/line" />
+
+    <Button
+        style="@style/commitBtn"
+        android:text="登  录"
+        android:layout_marginTop="@dimen/marginSize"
+        android:onClick="onCommitClick"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginSize"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/marginSize"
+            android:text="立即注册"
+            android:textSize="@dimen/infoSize"
+            android:textColor="@color/mainColor"
+            android:onClick="onRegisterClick"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_forget_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_toRightOf="@+id/tv_register"
+            android:onClick="onForgetPwClick"
+            android:padding="@dimen/marginSize"
+            android:text="忘记密码"
+            android:textColor="@color/mainColor"
+            android:textSize="@dimen/infoSize">
+
+        </TextView>
+    </RelativeLayout>
 
 </LinearLayout>
