@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xmlns:app="http://schemas.android.com/apk/res-auto" 指定了新的命名空间，下面才能使用app:attribute的写法，比如app:popupTheme-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <!-- 自定义的输入控件 -->
+    <com.bin23.music.views.InputView
+        android:id="@+id/input_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_icon="@mipmap/phone"
+        app:input_hint="请输入手机号"
+        app:is_password="false"
+        >
+
+    </com.bin23.music.views.InputView>
+
+    <!-- 分割线的引用 -->
+    <View style="@style/line" />
+
+    <com.bin23.music.views.InputView
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_icon="@mipmap/password"
+        app:input_hint="请输入密码"
+        app:is_password="true"
+        >
+
+    </com.bin23.music.views.InputView>
+
+    <View style="@style/line" />
+
+    <com.bin23.music.views.InputView
+        android:id="@+id/input_password_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_icon="@mipmap/password"
+        app:input_hint="请确认密码"
+        app:is_password="true"
+        >
+
+    </com.bin23.music.views.InputView>
+
+    <Button
+        style="@style/commitBtn"
+        android:text="注  册"
+        android:layout_marginTop="@dimen/marginSize"
+        android:onClick="onRegisterClick"
+        />
+
+</LinearLayout>
