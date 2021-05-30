@@ -40,4 +40,11 @@ dependencies {
     implementation group: 'androidx.cardview', name: 'cardview', version: '1.0.0'
 // https://mvnrepository.com/artifact/com.github.bumptech.glide/glide
     implementation group: 'com.github.bumptech.glide', name: 'glide', version: '4.8.0'
+    implementation 'jp.wasabeef:glide-transformations:4.0.1'
+    // XPopup弹窗
+    implementation 'com.github.li-xiaojun:XPopup:2.3.4'
+    // 底部城市选择器相关依赖
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.contrarywind:Android-PickerView:4.1.9'
+    implementation 'com.contrarywind:wheelview:4.1.0'
 }
