@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/itemViewHeight"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/marginSize"
+    android:paddingRight="@dimen/marginSize"
+    >
+
+    <ImageView
+        android:id="@+id/iv_left_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="@dimen/marginSize"
+        android:src="@mipmap/phone"
+        />
+
+    <TextView
+        android:id="@+id/tv_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textSize="@dimen/ItemTextSize"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_marginLeft="@dimen/marginSize"
+        android:layout_toRightOf="@+id/iv_left_icon"
+        />
+
+    <TextView
+        android:id="@+id/tv_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/marginSize"
+        android:layout_marginTop="@dimen/marginSize"
+        android:text="God23Bin"
+        android:textSize="@dimen/ItemTextSize"
+        android:textColor="#63666666"
+        android:layout_toLeftOf="@+id/iv_right_icon"
+        />
+
+    <ImageView
+        android:id="@+id/iv_right_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="@dimen/marginSize"
+        android:src="@mipmap/item_in"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
