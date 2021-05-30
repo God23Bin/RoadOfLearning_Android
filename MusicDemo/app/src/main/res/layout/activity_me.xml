@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MeActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <include layout="@layout/me_header" />
+
+    <com.bin23.music.views.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemViewHeight"
+        app:left_icon="@mipmap/item_user"
+        app:left_text="昵称"
+        app:right_text="God23Bin"
+        app:show_left_icon="true"
+        app:show_right_arrow="true"
+        android:onClick="onNicknameItemClick"
+        >
+
+    </com.bin23.music.views.ItemView>
+
+    <com.bin23.music.views.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemViewHeight"
+        app:left_icon="@mipmap/item_sex"
+        app:left_text="性别"
+        app:right_text="男"
+        app:show_left_icon="true"
+        app:show_right_arrow="true"
+        android:onClick="onSexItemClick"
+        >
+
+    </com.bin23.music.views.ItemView>
+
+    <com.bin23.music.views.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemViewHeight"
+        app:left_icon="@mipmap/item_area"
+        app:left_text="地区"
+        app:right_text="广东省 广州市"
+        app:show_left_icon="true"
+        app:show_right_arrow="true"
+        android:onClick="onAreaItemClick"
+        >
+
+    </com.bin23.music.views.ItemView>
+
+    <com.bin23.music.views.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemViewHeight"
+        app:left_icon="@mipmap/item_sign"
+        app:left_text="简介"
+        app:right_text="心如花木，向阳花开"
+        app:show_left_icon="true"
+        app:show_right_arrow="true"
+        android:onClick="onSignItemClick"
+        >
+
+    </com.bin23.music.views.ItemView>
+
+    <!-- 分割线的引用 -->
+    <View style="@style/line" />
+
+    <com.bin23.music.views.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemViewHeight"
+        app:left_icon="@mipmap/item_update_pw"
+        app:left_text="修改密码"
+        app:right_text=""
+        app:show_left_icon="true"
+        app:show_right_arrow="true"
+        android:onClick="onUpdatePwItemClick"
+        >
+
+    </com.bin23.music.views.ItemView>
+
+    <!-- 分割线的引用 -->
+    <View style="@style/line" />
+
+    <com.bin23.music.views.ItemView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemViewHeight"
+        app:left_icon="@mipmap/item_version"
+        app:left_text="版本"
+        app:right_text=""
+        app:show_left_icon="true"
+        app:show_right_arrow="false"
+        android:onClick="onVersionItemClick"
+        >
+
+    </com.bin23.music.views.ItemView>
+
+</LinearLayout>
