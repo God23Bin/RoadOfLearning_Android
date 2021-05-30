@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +20,7 @@ import android.widget.Toast;
 
 import com.bin23.music.R;
 import com.bin23.music.activities.BaseActivity;
+import com.bin23.music.adapters.MusicsGridAdapter;
 import com.bin23.music.utils.UserUtils;
 import com.google.android.material.navigation.NavigationView;
 
@@ -27,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private NavigationView  navView;
     private ActionBar actionBar;
+
+    private RecyclerView mRvGrid;
+    private MusicsGridAdapter mMgAdapter;
 
     /**
      * 简化findViewById
@@ -57,6 +63,13 @@ public class MainActivity extends AppCompatActivity {
         mDrawerLayout = fd(R.id.drawer_layout);
         // 侧边导航栏 NavigationView
         navView = fd(R.id.nav_view);
+
+        mRvGrid = fd(R.id.rv_grid);
+        // 设置同一行，3个元素，即显示3个歌单
+        mRvGrid.setLayoutManager(new GridLayoutManager(this, 3));
+        mMgAdapter = new MusicsGridAdapter(this);
+        // 传入 adapter 显示数据
+        mRvGrid.setAdapter(mMgAdapter);
     }
 
     /**

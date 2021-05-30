@@ -11,21 +11,38 @@
     <!--第一个DrawerLayout子控件，主要内容页面-->
     <!--CoordinatorLayout和FrameLayout基本一样，但是它可以自动响应布局-->
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
 
-        <!--工具栏-->
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+        <!-- 把Toolbar放在AppBarLayout中，解决Toolbar被RecyclerView遮挡的问题-->
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimaryDark"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            />
+            android:layout_height="wrap_content">
+            <!--
+                工具栏
+                layout_scrollFlags属性:
+                - scroll      表示Toolbar会跟着向上滚动并隐藏
+                - enterAlways 表示Toolbar会跟着向下滚动并重新显示
+                - snap        表示Toolbar会跟据距离显示还是隐藏
+            -->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimaryDark"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!-- 加上AppBarLayout的同时，给RecyclerView加上一个行为-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
