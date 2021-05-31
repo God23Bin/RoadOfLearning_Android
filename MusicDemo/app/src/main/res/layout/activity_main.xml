@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
-
         <!-- 把Toolbar放在AppBarLayout中，解决Toolbar被RecyclerView遮挡的问题-->
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
@@ -37,12 +36,61 @@
                 />
         </com.google.android.material.appbar.AppBarLayout>
 
-        <!-- 加上AppBarLayout的同时，给RecyclerView加上一个行为-->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_grid"
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="@dimen/marginSize"
+                        android:layout_marginLeft="@dimen/marginSize"
+                        android:layout_marginBottom="@dimen/marginSize"
+                        >
+                        <View
+                            android:layout_width="4dp"
+                            android:layout_height="22dp"
+                            android:background="@color/mainColor"
+                            >
+
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="推荐歌单"
+                            android:textColor="@color/titleColor"
+                            android:textSize="@dimen/TitleSize"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="@dimen/marginTabSize"
+                            />
+                    </LinearLayout>
+
+                    <!-- 加上AppBarLayout的同时，给RecyclerView加上一个行为-->
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_grid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

@@ -8,6 +8,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView mRvGrid;
     private MusicsGridAdapter mMgAdapter;
 
+    private SwipeRefreshLayout swipeRefresh;
+
     /**
      * 简化findViewById
      * @param id
@@ -53,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         setHomeAsUp();
 
         setNavSideBar();
+        setMusicsGrid();
     }
 
     private void initView() {
@@ -63,13 +67,11 @@ public class MainActivity extends AppCompatActivity {
         mDrawerLayout = fd(R.id.drawer_layout);
         // 侧边导航栏 NavigationView
         navView = fd(R.id.nav_view);
-
+        // 网格歌单 RecyclerView
         mRvGrid = fd(R.id.rv_grid);
-        // 设置同一行，3个元素，即显示3个歌单
-        mRvGrid.setLayoutManager(new GridLayoutManager(this, 3));
-        mMgAdapter = new MusicsGridAdapter(this);
-        // 传入 adapter 显示数据
-        mRvGrid.setAdapter(mMgAdapter);
+
+        swipeRefresh = fd(R.id.swipe_refresh);
+        setSwipeRefresh();
     }
 
     /**
@@ -86,6 +88,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * 设置NavigationView，处理点击事件
+     */
     private void setNavSideBar() {
         // 将call选项默认选中
         navView.setCheckedItem(R.id.nav_msg);
@@ -112,6 +117,35 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+    }
+
+    /**
+     * 设置主页的主要部分-歌单的数据显示
+     */
+    private void setMusicsGrid() {
+        // 设置同一行，3个元素，即显示3个歌单
+        mRvGrid.setLayoutManager(new GridLayoutManager(this, 3));
+        mMgAdapter = new MusicsGridAdapter(this);
+        // 传入 adapter 显示数据
+        mRvGrid.setAdapter(mMgAdapter);
+    }
+
+    /**
+     * 设置刷新圈圈颜色、刷新逻辑
+     */
+    private void setSwipeRefresh() {
+        swipeRefresh.setColorSchemeColors(R.color.mainColorH);
+        swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                // 处理刷新逻辑，这里更换下歌单封面
+                reFreshPlayList();
+            }
+        });
+    }
+
+    private void reFreshPlayList() {
+
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
