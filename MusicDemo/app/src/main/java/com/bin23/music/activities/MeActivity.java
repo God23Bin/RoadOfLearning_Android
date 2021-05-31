@@ -47,8 +47,12 @@ public class MeActivity extends BaseActivity {
     }
 
     public void setHeaderWithGlide() {
-        //设置背景磨砂效果
+        //设置背景高斯模糊效果
         Glide.with(this).load(R.mipmap.nav_icon)
+                // 提供applay()方法
+                //   - 接收RequestOptions参数，可以对图片进行配置，有bitmapTransform()方法将Transformation封装到RequestOptions对象里面，而RequestOptions实现Transformation
+                // bitmapTransform()方法
+                //   - 接收TransFormation参数，我们可以new出BlurTransformation()进行高斯模糊处理，其参数一，模糊程度，参数二，宽高为原图片三分之一
                 .apply(RequestOptions.bitmapTransform(new BlurTransformation(14, 3)))
                 .transition(DrawableTransitionOptions.withCrossFade())  //淡入淡出
                 .into(mHeadBack);
