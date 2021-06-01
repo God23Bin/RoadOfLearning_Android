@@ -4,13 +4,17 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.bin23.music.R;
+import com.bin23.music.activities.PlayMusicActivity;
 
 public class MusicsListAdapter extends RecyclerView.Adapter<MusicsListAdapter.ViewHolder> {
 
@@ -38,6 +42,14 @@ public class MusicsListAdapter extends RecyclerView.Adapter<MusicsListAdapter.Vi
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         setRecyclerViewHeight();
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(mContext, PlayMusicActivity.class);
+                mContext.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -66,8 +78,17 @@ public class MusicsListAdapter extends RecyclerView.Adapter<MusicsListAdapter.Vi
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
+
+        ImageView ivIcon;
+        View itemView;
+        TextView TvName,TvAuthor;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            this.itemView=itemView;
+            ivIcon=itemView.findViewById(R.id.iv_song_cover_icon);
+            TvName=itemView.findViewById(R.id.tv_song_name);
+            TvAuthor=itemView.findViewById(R.id.tv_song_author);
         }
     }
 }
