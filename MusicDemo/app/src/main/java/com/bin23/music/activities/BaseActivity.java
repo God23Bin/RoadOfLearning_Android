@@ -39,8 +39,8 @@ public class BaseActivity extends Activity {
             public void onClick(View v) {
                 onBackPressed();
                 // 解决动画错误
-                ((Activity)BaseActivity.this).overridePendingTransition(R.anim.open_enter, R.anim.open_exit);
-                ((Activity)BaseActivity.this).overridePendingTransition(R.anim.close_enter, R.anim.close_exit);
+//                ((Activity)BaseActivity.this).overridePendingTransition(R.anim.open_enter, R.anim.open_exit);
+//                ((Activity)BaseActivity.this).overridePendingTransition(R.anim.close_enter, R.anim.close_exit);
             }
         });
     }
