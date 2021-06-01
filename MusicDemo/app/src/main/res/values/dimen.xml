@@ -16,4 +16,6 @@
     <dimen name="playNumImgSize">18dp</dimen>
     <dimen name="playListTextSize">14sp</dimen>
     <dimen name="itemSongCoverIconSize">56dp</dimen>
+    <dimen name="discTopSize">110dp</dimen>
+    <dimen name="playMusicIconSize">210dp</dimen>
 </resources>
