@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class Datautils {
+public class DataUtil {
 
     private static StringBuilder sb;
     private static AssetManager am;
