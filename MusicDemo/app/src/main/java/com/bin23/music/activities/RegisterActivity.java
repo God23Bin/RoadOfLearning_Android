@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.bin23.music.R;
+import com.bin23.music.model.UserModel;
+import com.bin23.music.utils.UserUtils;
 import com.bin23.music.views.InputView;
 
 public class RegisterActivity extends BaseActivity {
@@ -29,6 +31,15 @@ public class RegisterActivity extends BaseActivity {
     }
 
     public void onRegisterClick(View view) {
-
+        String phone = mIvPhone.getInputStr().trim();
+        String password = mIvPassword.getInputStr().trim();
+        String passwordC = mIvPasswordConfirm.getInputStr().trim();
+        // 进行注册，返回注册结果
+        boolean res = UserUtils.register(this, phone, password, passwordC);
+        if (!res) {
+            return;
+        }
+        showToast(this, "注册成功~");
+        onBackPressed();
     }
 }
