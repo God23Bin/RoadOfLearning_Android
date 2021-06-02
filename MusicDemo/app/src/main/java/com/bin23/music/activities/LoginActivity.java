@@ -38,7 +38,7 @@ public class LoginActivity extends BaseActivity {
     public void onCommitClick(View view) {
         String phone = mIvPhone.getInputStr();
         String password = mIvPassword.getInputStr();
-        if (!UserUtils.validateLogin(this, phone, password)) {
+        if (!UserUtils.login(this, phone, password)) {
             return;
         }
         Intent intent = new Intent(this, MainActivity.class);
@@ -47,7 +47,7 @@ public class LoginActivity extends BaseActivity {
     }
 
     /**
-     * 注册
+     * 立即注册，跳转注册页面
      */
     public void onRegisterClick(View view) {
         Intent intent = new Intent(this, RegisterActivity.class);
