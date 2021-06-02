@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.bin23.music.R;
+import com.bin23.music.utils.SharedPreferencesUtil;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -24,6 +25,9 @@ public class WelcomeActivity extends BaseActivity {
     }
 
     private void init() {
+        // 用户自动登录，判断是否已经登录，已经登录则进入主页，否则进入登录页面
+        final boolean isLogin = SharedPreferencesUtil.isLoginUser(this);
+
         mTimer = new Timer();
         // schedule(TimerTask task, long delay)
         // 作用
@@ -34,9 +38,13 @@ public class WelcomeActivity extends BaseActivity {
                 // Log.e("WelcomeActivity", "当前线程为:" + Thread.currentThread().getName());
                 // 跳转到MainActivity
 //                toMain();
-                toLogin();
+                if (isLogin) {
+                    toMain();
+                } else {
+                    toLogin();
+                }
             }
-        }, 3 * 1000);
+        }, 2 * 1000);
     }
 
     private void toMain() {
