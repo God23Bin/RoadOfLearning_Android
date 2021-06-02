@@ -1,10 +1,12 @@
 package com.bin23.music.activities;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.IdRes;
 import androidx.annotation.Nullable;
@@ -43,6 +45,10 @@ public class BaseActivity extends Activity {
 //                ((Activity)BaseActivity.this).overridePendingTransition(R.anim.close_enter, R.anim.close_exit);
             }
         });
+    }
+
+    public static void showToast(Context context, String msg) {
+        Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
     }
 
     @Override
