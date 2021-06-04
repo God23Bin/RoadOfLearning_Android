@@ -1,7 +1,11 @@
 package com.bin23.music.views;
 
+import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
+import android.content.ServiceConnection;
 import android.media.MediaPlayer;
+import android.os.IBinder;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +19,8 @@ import androidx.annotation.Nullable;
 
 import com.bin23.music.R;
 import com.bin23.music.helps.MediaPlayerHelper;
+import com.bin23.music.model.MusicModel;
+// import com.bin23.music.services.MusicService;
 import com.bumptech.glide.Glide;
 
 public class PlayMusicView extends FrameLayout {
@@ -38,6 +44,11 @@ public class PlayMusicView extends FrameLayout {
     private MediaPlayerHelper mMediaPlayerHelper;
 
     private String mPath;
+
+    // private Intent mServiceIntent;
+    // private boolean isBindingService;
+    // private MusicService.MusicBind mMusicBind;
+    // private MusicModel mMusicModel;
 
     public PlayMusicView(@NonNull Context context) {
         super(context);
@@ -90,13 +101,6 @@ public class PlayMusicView extends FrameLayout {
         });
         mIvNeedle = mView.findViewById(R.id.iv_needle);
 
-//        mIvMusicPlay.setOnClickListener(new OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//            }
-//        });
-
         addView(mView);
 
         mMediaPlayerHelper = MediaPlayerHelper.getInstance(mContext);
@@ -107,10 +111,18 @@ public class PlayMusicView extends FrameLayout {
      * @param iconUrl
      */
     public void setMusicCover(String iconUrl) {
+    // public void setMusicCover() {
         Glide.with(mContext)
                 .load(iconUrl)
+                // .load(mMusicModel.getPoster())
                 .into(mIvCoverIcon);
     }
+
+
+    // public void setMusic(MusicModel musicModel) {
+    //     mMusicModel = musicModel;
+    //     setMusicCover();
+    // }
 
     /**
      * 切换播放状态
@@ -120,6 +132,7 @@ public class PlayMusicView extends FrameLayout {
             stopMusic();
         } else {
             playMusic(mPath);
+            // playMusic();
         }
     }
 
@@ -127,6 +140,7 @@ public class PlayMusicView extends FrameLayout {
      * 播放音乐执行动画效果，并播放音乐
      */
     public void playMusic(String path) {
+    // public void playMusic() {
         mPath = path;
         isPlaying = true;
         mIvMusicPlay.setVisibility(View.GONE);
@@ -147,6 +161,7 @@ public class PlayMusicView extends FrameLayout {
                 }
             });
         }
+        // startMusicService();
     }
 
     public void stopMusic() {
@@ -156,5 +171,52 @@ public class PlayMusicView extends FrameLayout {
         mIvNeedle.startAnimation(mStopNeedleAnim);
 
         mMediaPlayerHelper.pause();
+        // if (mMusicBind != null)
+        //     mMusicBind.stopMusic();
     }
+
+    // /**
+    //  * 启动音乐服务
+    //  */
+    // private void startMusicService() {
+    //     // 启动Service
+    //     if (mServiceIntent == null) {
+    //         mServiceIntent = new Intent(mContext, MusicService.class);
+    //         mContext.startService(mServiceIntent);
+    //     } else {
+    //         mMusicBind.playMusic();
+    //     }
+    //     // 绑定Service，判断当前Service是否判定？绑定：解绑
+    //     if (!isBindingService) {
+    //         isBindingService = true;
+    //         // 需要一个Connection
+    //         mContext.bindService(mServiceIntent, conn, Context.BIND_AUTO_CREATE);
+    //     }
+
+    // }
+
+    // ServiceConnection conn = new ServiceConnection() {
+    //     @Override
+    //     public void onServiceConnected(ComponentName name, IBinder service) {
+    //         mMusicBind = (MusicService.MusicBind)service;
+    //         mMusicBind.setMusic(mMusicModel);
+    //         mMusicBind.playMusic();
+    //     }
+
+    //     @Override
+    //     public void onServiceDisconnected(ComponentName name) {
+
+    //     }
+    // };
+
+    // /**
+    //  * 取消音乐绑定
+    //  */
+    // public void destory() {
+    //     // 如果绑定了服务，那么解除绑定
+    //     if (isBindingService) {
+    //         isBindingService = false;
+    //         mContext.unbindService(conn);
+    //     }
+    // }
 }
