@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:src="@mipmap/logo"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
         />
 
     <!-- 自定义的输入控件 -->

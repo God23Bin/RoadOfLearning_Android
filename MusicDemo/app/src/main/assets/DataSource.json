@@ -2,385 +2,158 @@
   "album": [
     {
       "albumId": "1",
-      "name": "Nostalgic",
-      "poster": "http://res.lgdsunday.club/poster-9.png",
-      "playNum": "203.3万",
+      "name": "混合、我爱",
+      "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+      "playNum": "153.3万",
       "list": [
         {
           "musicId": "101",
-          "name": "Nostalgic Piano",
-          "poster": "http://res.lgdsunday.club/poster-1.png",
-          "path": "http://res.lgdsunday.club/Nostalgic%20Piano.mp3",
-          "author": "Rafael Krux"
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m801.music.126.net/20210604094449/1b89d7c352b4ff459f8d364bf7bdacc8/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
         },
         {
           "musicId": "102",
-          "name": "La Citadelle",
-          "poster": "http://res.lgdsunday.club/poster-2.png",
-          "path": "http://res.lgdsunday.club/La%20Citadelle.mp3",
-          "author": "Komiku"
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
         },
         {
           "musicId": "103",
-          "name": "Champ de tournesol",
-          "poster": "http://res.lgdsunday.club/poster-3.png",
-          "path": "http://res.lgdsunday.club/Champ%20de%20tournesol.mp3",
-          "author": "Komiku"
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
         },
         {
           "musicId": "104",
-          "name": "Horizon Flare",
-          "poster": "http://res.lgdsunday.club/poster-4.png",
-          "path": "http://res.lgdsunday.club/Horizon%20Flare.mp3",
-          "author": "Alexander Nakarada"
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
         },
         {
           "musicId": "105",
-          "name": "Lovely Piano Song",
-          "poster": "http://res.lgdsunday.club/poster-5.png",
-          "path": "http://res.lgdsunday.club/Lovely%20Piano%20Song.mp3",
-          "author": "Rafael Krux"
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
         },
         {
           "musicId": "106",
-          "name": "Romantic Inspiration",
-          "poster": "http://res.lgdsunday.club/poster-6.png",
-          "path": "http://res.lgdsunday.club/Romantic%20Inspiration.mp3",
-          "author": "Rafael Krux"
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
         },
         {
           "musicId": "107",
-          "name": "Brothers Unite",
-          "poster": "http://res.lgdsunday.club/poster-7.png",
-          "path": "http://res.lgdsunday.club/Brothers%20Unite.mp3",
-          "author": "Alexander Nakarada"
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
         },
         {
           "musicId": "108",
-          "name": "Amazing Grace",
-          "poster": "http://res.lgdsunday.club/poster-8.png",
-          "path": "http://res.lgdsunday.club/Amazing%20Grace.mp3",
-          "author": "Kevin MacLeod"
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
         }
       ]
     },
     {
       "albumId": "2",
-      "name": "Champ de tournesol",
-      "poster": "http://res.lgdsunday.club/poster-10.png",
+      "name": "年度歌单",
+      "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
       "playNum": "78.3万",
       "list": [
         {
           "musicId": "201",
-          "name": "Nostalgic Piano",
-          "poster": "http://res.lgdsunday.club/poster-1.png",
-          "path": "http://res.lgdsunday.club/Nostalgic%20Piano.mp3",
-          "author": "Rafael Krux"
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
         },
         {
           "musicId": "202",
-          "name": "La Citadelle",
-          "poster": "http://res.lgdsunday.club/poster-2.png",
-          "path": "http://res.lgdsunday.club/La%20Citadelle.mp3",
-          "author": "Komiku"
+          "name": "这一生关于你的风景",
+          "poster": "http://p2.music.126.net/415A5Xt3bUegx4vyiY8dNQ==/109951164821961505.jpg",
+          "path": "http://m7.music.126.net/20210604102428/6f3311e315fadfcf0ea31e3e9e594af6/ymusic/045e/0409/005e/3408722d3b3c0aecd6cf74b845f5c5e2.mp3",
+          "author": "枯木逢春"
         },
         {
           "musicId": "203",
-          "name": "Champ de tournesol",
-          "poster": "http://res.lgdsunday.club/poster-3.png",
-          "path": "http://res.lgdsunday.club/Champ%20de%20tournesol.mp3",
-          "author": "Komiku"
+          "name": "差三岁",
+          "poster": "http://p2.music.126.net/j5T4I6pnLhgIQNARglmdpg==/1383185628169225.jpg",
+          "path": "http://m7.music.126.net/20210604102643/bf2b9812bfcbe8ce3f8d5300d86798f4/ymusic/c026/9448/8e82/db0c903fcb172cd8a8109cc619465d9f.mp3",
+          "author": "Jam"
         },
         {
           "musicId": "204",
-          "name": "Horizon Flare",
-          "poster": "http://res.lgdsunday.club/poster-4.png",
-          "path": "http://res.lgdsunday.club/Horizon%20Flare.mp3",
-          "author": "Alexander Nakarada"
+          "name": "成都",
+          "poster": "http://p2.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",
+          "path": "http://m701.music.126.net/20210604102757/5d50dc60f357196b7d9995b016443bad/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1531162365/179d/ff11/6cdd/32e93bfaa4e01e6394d531b6b1bec1ba.mp3",
+          "author": "赵雷"
         },
         {
           "musicId": "205",
-          "name": "Lovely Piano Song",
-          "poster": "http://res.lgdsunday.club/poster-5.png",
-          "path": "http://res.lgdsunday.club/Lovely%20Piano%20Song.mp3",
-          "author": "Rafael Krux"
+          "name": "钟无艳",
+          "poster": "http://p2.music.126.net/e7y_BaALO6o0uM6I-mc5zw==/109951165206845950.jpg",
+          "path": "http://m7.music.126.net/20210604102952/ada24abc06ca764fcb466aac1a71e911/ymusic/9eba/54c0/5604/aa613922bd1fd30aa816eaa687119fb2.mp3",
+          "author": "谢安琪"
         },
         {
           "musicId": "206",
-          "name": "Romantic Inspiration",
-          "poster": "http://res.lgdsunday.club/poster-6.png",
-          "path": "http://res.lgdsunday.club/Romantic%20Inspiration.mp3",
-          "author": "Rafael Krux"
+          "name": "七月上",
+          "poster": "http://p2.music.126.net/j5T4I6pnLhgIQNARglmdpg==/1383185628169225.jpg",
+          "path": "http://m8.music.126.net/20210604103136/69803c4932dd5595ad4a4a8f94af7761/ymusic/4c8d/a7f3/76de/14ff6fd6083f9744ea5b99dfcd3559c2.mp3",
+          "author": "Jam"
         },
         {
           "musicId": "207",
-          "name": "Brothers Unite",
-          "poster": "http://res.lgdsunday.club/poster-7.png",
-          "path": "http://res.lgdsunday.club/Brothers%20Unite.mp3",
-          "author": "Alexander Nakarada"
+          "name": "爸爸妈妈",
+          "poster": "http://p1.music.126.net/UH6mbkyWNd9hRocMk3hd6Q==/109951163240596163.jpg",
+          "path": "http://m8.music.126.net/20210604103403/a9301a3f917c9450e11ffdb5463beddc/ymusic/fec1/e6db/4e3e/36a9a431a2e00f33d616205f07ae0dae.mp3",
+          "author": "李荣浩"
         },
         {
           "musicId": "208",
-          "name": "Amazing Grace",
-          "poster": "http://res.lgdsunday.club/poster-8.png",
-          "path": "http://res.lgdsunday.club/Amazing%20Grace.mp3",
-          "author": "Kevin MacLeod"
+          "name": "如果当时",
+          "poster": "http://p1.music.126.net/Md3RLH0fe2a_3dMDnfqoQg==/18590542604286213.jpg",
+          "path": "http://m7.music.126.net/20210604103605/6c105768434af525e091c2f9a2ed3408/ymusic/4c06/7df4/f665/423875cb6be98efe51ced7020a5c07c3.mp3",
+          "author": "许嵩"
         }
       ]
     },
     {
       "albumId": "3",
-      "name": "Lovely",
-      "poster": "http://res.lgdsunday.club/poster-11.png",
-      "playNum": "1098万",
+      "name": "海贼王爆燃",
+      "poster": "http://p2.music.126.net/SG_3x2i7vQLjtWZlBefmew==/943380976677888.jpg",
+      "playNum": "78.3万",
       "list": [
         {
           "musicId": "301",
-          "name": "Nostalgic Piano",
-          "poster": "http://res.lgdsunday.club/poster-1.png",
-          "path": "http://res.lgdsunday.club/Nostalgic%20Piano.mp3",
-          "author": "Rafael Krux"
+          "name": "追いつめられた",
+          "poster": "http://p2.music.126.net/SmqMdDIFR190X7z-X4QTSw==/5820814557501346.jpg",
+          "path": "http://m8.music.126.net/20210604103912/a0a48c15ecac77b55c929db04751d1aa/ymusic/e816/9fbf/5b47/f415f652bf9f7391774b61ed8ac0afbf.mp3",
+          "author": "浜口史郎"
         },
         {
           "musicId": "302",
-          "name": "La Citadelle",
-          "poster": "http://res.lgdsunday.club/poster-2.png",
-          "path": "http://res.lgdsunday.club/La%20Citadelle.mp3",
-          "author": "Komiku"
+          "name": "ルフィ猛攻!",
+          "poster": "http://p1.music.126.net/SY3Vy0OQ870lyHWIwzluKg==/6668538022871208.jpg",
+          "path": "http://m7.music.126.net/20210604104059/f95f58ac0b703a29e81467d12230e21b/ymusic/bcb5/8a72/9b4f/21199925e89406c052cd0eda0725f762.mp3",
+          "author": "浜口史郎"
         },
         {
           "musicId": "303",
-          "name": "Champ de tournesol",
-          "poster": "http://res.lgdsunday.club/poster-3.png",
-          "path": "http://res.lgdsunday.club/Champ%20de%20tournesol.mp3",
-          "author": "Komiku"
-        },
-        {
-          "musicId": "304",
-          "name": "Horizon Flare",
-          "poster": "http://res.lgdsunday.club/poster-4.png",
-          "path": "http://res.lgdsunday.club/Horizon%20Flare.mp3",
-          "author": "Alexander Nakarada"
-        },
-        {
-          "musicId": "305",
-          "name": "Lovely Piano Song",
-          "poster": "http://res.lgdsunday.club/poster-5.png",
-          "path": "http://res.lgdsunday.club/Lovely%20Piano%20Song.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "306",
-          "name": "Romantic Inspiration",
-          "poster": "http://res.lgdsunday.club/poster-6.png",
-          "path": "http://res.lgdsunday.club/Romantic%20Inspiration.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "307",
-          "name": "Brothers Unite",
-          "poster": "http://res.lgdsunday.club/poster-7.png",
-          "path": "http://res.lgdsunday.club/Brothers%20Unite.mp3",
-          "author": "Alexander Nakarada"
-        },
-        {
-          "musicId": "308",
-          "name": "Amazing Grace",
-          "poster": "http://res.lgdsunday.club/poster-8.png",
-          "path": "http://res.lgdsunday.club/Amazing%20Grace.mp3",
-          "author": "Kevin MacLeod"
-        }
-      ]
-    },
-    {
-      "albumId": "4",
-      "name": "Romantic",
-      "poster": "http://res.lgdsunday.club/poster-12.png",
-      "playNum": "1.2亿",
-      "list": [
-        {
-          "musicId": "401",
-          "name": "Nostalgic Piano",
-          "poster": "http://res.lgdsunday.club/poster-1.png",
-          "path": "http://res.lgdsunday.club/Nostalgic%20Piano.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "402",
-          "name": "La Citadelle",
-          "poster": "http://res.lgdsunday.club/poster-2.png",
-          "path": "http://res.lgdsunday.club/La%20Citadelle.mp3",
-          "author": "Komiku"
-        },
-        {
-          "musicId": "403",
-          "name": "Champ de tournesol",
-          "poster": "http://res.lgdsunday.club/poster-3.png",
-          "path": "http://res.lgdsunday.club/Champ%20de%20tournesol.mp3",
-          "author": "Komiku"
-        },
-        {
-          "musicId": "404",
-          "name": "Horizon Flare",
-          "poster": "http://res.lgdsunday.club/poster-4.png",
-          "path": "http://res.lgdsunday.club/Horizon%20Flare.mp3",
-          "author": "Alexander Nakarada"
-        },
-        {
-          "musicId": "405",
-          "name": "Lovely Piano Song",
-          "poster": "http://res.lgdsunday.club/poster-5.png",
-          "path": "http://res.lgdsunday.club/Lovely%20Piano%20Song.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "406",
-          "name": "Romantic Inspiration",
-          "poster": "http://res.lgdsunday.club/poster-6.png",
-          "path": "http://res.lgdsunday.club/Romantic%20Inspiration.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "407",
-          "name": "Brothers Unite",
-          "poster": "http://res.lgdsunday.club/poster-7.png",
-          "path": "http://res.lgdsunday.club/Brothers%20Unite.mp3",
-          "author": "Alexander Nakarada"
-        },
-        {
-          "musicId": "408",
-          "name": "Amazing Grace",
-          "poster": "http://res.lgdsunday.club/poster-8.png",
-          "path": "http://res.lgdsunday.club/Amazing%20Grace.mp3",
-          "author": "Kevin MacLeod"
-        }
-      ]
-    },
-    {
-      "albumId": "5",
-      "name": "Brothers",
-      "poster": "http://res.lgdsunday.club/poster-13.png",
-      "playNum": "2089.7万",
-      "list": [
-        {
-          "musicId": "501",
-          "name": "Nostalgic Piano",
-          "poster": "http://res.lgdsunday.club/poster-1.png",
-          "path": "http://res.lgdsunday.club/Nostalgic%20Piano.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "502",
-          "name": "La Citadelle",
-          "poster": "http://res.lgdsunday.club/poster-2.png",
-          "path": "http://res.lgdsunday.club/La%20Citadelle.mp3",
-          "author": "Komiku"
-        },
-        {
-          "musicId": "503",
-          "name": "Champ de tournesol",
-          "poster": "http://res.lgdsunday.club/poster-3.png",
-          "path": "http://res.lgdsunday.club/Champ%20de%20tournesol.mp3",
-          "author": "Komiku"
-        },
-        {
-          "musicId": "504",
-          "name": "Horizon Flare",
-          "poster": "http://res.lgdsunday.club/poster-4.png",
-          "path": "http://res.lgdsunday.club/Horizon%20Flare.mp3",
-          "author": "Alexander Nakarada"
-        },
-        {
-          "musicId": "505",
-          "name": "Lovely Piano Song",
-          "poster": "http://res.lgdsunday.club/poster-5.png",
-          "path": "http://res.lgdsunday.club/Lovely%20Piano%20Song.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "506",
-          "name": "Romantic Inspiration",
-          "poster": "http://res.lgdsunday.club/poster-6.png",
-          "path": "http://res.lgdsunday.club/Romantic%20Inspiration.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "507",
-          "name": "Brothers Unite",
-          "poster": "http://res.lgdsunday.club/poster-7.png",
-          "path": "http://res.lgdsunday.club/Brothers%20Unite.mp3",
-          "author": "Alexander Nakarada"
-        },
-        {
-          "musicId": "508",
-          "name": "Amazing Grace",
-          "poster": "http://res.lgdsunday.club/poster-8.png",
-          "path": "http://res.lgdsunday.club/Amazing%20Grace.mp3",
-          "author": "Kevin MacLeod"
-        }
-      ]
-    },
-    {
-      "albumId": "6",
-      "name": "Amazing",
-      "poster": "http://res.lgdsunday.club/poster-14.png",
-      "playNum": "56.7万",
-      "list": [
-        {
-          "musicId": "601",
-          "name": "Nostalgic Piano",
-          "poster": "http://res.lgdsunday.club/poster-1.png",
-          "path": "http://res.lgdsunday.club/Nostalgic%20Piano.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "602",
-          "name": "La Citadelle",
-          "poster": "http://res.lgdsunday.club/poster-2.png",
-          "path": "http://res.lgdsunday.club/La%20Citadelle.mp3",
-          "author": "Komiku"
-        },
-        {
-          "musicId": "603",
-          "name": "Champ de tournesol",
-          "poster": "http://res.lgdsunday.club/poster-3.png",
-          "path": "http://res.lgdsunday.club/Champ%20de%20tournesol.mp3",
-          "author": "Komiku"
-        },
-        {
-          "musicId": "604",
-          "name": "Horizon Flare",
-          "poster": "http://res.lgdsunday.club/poster-4.png",
-          "path": "http://res.lgdsunday.club/Horizon%20Flare.mp3",
-          "author": "Alexander Nakarada"
-        },
-        {
-          "musicId": "605",
-          "name": "Lovely Piano Song",
-          "poster": "http://res.lgdsunday.club/poster-5.png",
-          "path": "http://res.lgdsunday.club/Lovely%20Piano%20Song.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "606",
-          "name": "Romantic Inspiration",
-          "poster": "http://res.lgdsunday.club/poster-6.png",
-          "path": "http://res.lgdsunday.club/Romantic%20Inspiration.mp3",
-          "author": "Rafael Krux"
-        },
-        {
-          "musicId": "607",
-          "name": "Brothers Unite",
-          "poster": "http://res.lgdsunday.club/poster-7.png",
-          "path": "http://res.lgdsunday.club/Brothers%20Unite.mp3",
-          "author": "Alexander Nakarada"
-        },
-        {
-          "musicId": "608",
-          "name": "Amazing Grace",
-          "poster": "http://res.lgdsunday.club/poster-8.png",
-          "path": "http://res.lgdsunday.club/Amazing%20Grace.mp3",
-          "author": "Kevin MacLeod"
+          "name": "白热!ゾロ",
+          "poster": "http://p2.music.126.net/SG_3x2i7vQLjtWZlBefmew==/943380976677888.jpg",
+          "path": "http://m7.music.126.net/20210604104231/a82e5de6839f88be0fd754c4967daba7/ymusic/636b/e396/450b/b561660dfde86c8669f017f00312aee6.mp3",
+          "author": "浜口史郎"
         }
       ]
     }
