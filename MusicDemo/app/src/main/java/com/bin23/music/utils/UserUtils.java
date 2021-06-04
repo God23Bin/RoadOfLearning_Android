@@ -120,7 +120,7 @@ public class UserUtils {
 
         RealmHelper realmHelper = new RealmHelper();
         boolean res = realmHelper.validateUser(phone, EncryptUtils.encryptMD5ToString(password));
-        realmHelper.close();
+
         if (!res) {
             showToast(context, LOGIN_FAIL);
             return false;
@@ -135,9 +135,10 @@ public class UserUtils {
         UserHelper.getInstance().setPhone(phone);
         UserHelper.getInstance().setUsername("默认的昵称哦");
 
-//        // 保存音乐源数据
-//        realmHelper.setMusicSource(context);
-//        realmHelper.close();
+        // 保存音乐源数据
+        realmHelper.setMusicSource(context);
+
+        realmHelper.close();
 
         return true;
     }
@@ -149,10 +150,11 @@ public class UserUtils {
             return;
         }
 
-//        // 删除数据源
-//        RealmHelper realmHelper = new RealmHelper();
-//        realmHelper.removeMusicSource();
-//        realmHelper.close();
+       // 删除数据源
+       RealmHelper realmHelper = new RealmHelper();
+       realmHelper.removeMusicSource();
+       
+       realmHelper.close();
 
         Intent intent = new Intent(context, LoginActivity.class);
         // 添加intent标识符，清理task栈，并且新生成task栈
