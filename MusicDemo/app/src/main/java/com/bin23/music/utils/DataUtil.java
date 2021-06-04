@@ -47,5 +47,6 @@ public class DataUtil {
         }
         System.out.println(sb.toString());
         return sb.toString();
+        // 接下来把读取的数据存放到数据库中，从而使我们的项目能从数据库中拿出来展示，打开RealmHelper啦
     }
 }
