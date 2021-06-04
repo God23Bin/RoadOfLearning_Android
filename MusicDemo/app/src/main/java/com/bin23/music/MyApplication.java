@@ -17,6 +17,6 @@ public class MyApplication extends Application {
         // 初始化 Realm
         Realm.init(this);
         // 数据迁移/版本升级
-//        RealmHelper.migration();
+       RealmHelper.migration();
     }
 }
