@@ -22,6 +22,9 @@ import android.widget.Toast;
 import com.bin23.music.R;
 import com.bin23.music.activities.BaseActivity;
 import com.bin23.music.adapters.MusicsGridAdapter;
+import com.bin23.music.helps.RealmHelper;
+import com.bin23.music.helps.UserHelper;
+import com.bin23.music.model.MusicSourceModel;
 import com.bin23.music.utils.UserUtils;
 import com.google.android.material.navigation.NavigationView;
 
@@ -29,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private DrawerLayout mDrawerLayout;
-    private NavigationView  navView;
+    private NavigationView navView;
     private ActionBar actionBar;
 
     private RecyclerView mRvGrid;
@@ -37,8 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
     private SwipeRefreshLayout swipeRefresh;
 
+    private RealmHelper mRealmHelper;
+    private MusicSourceModel mMusicSourceModel;
+
     /**
      * 简化findViewById
+     *
      * @param id
      * @param <T>
      * @return
@@ -52,11 +59,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        initData();
         initView();
         setHomeAsUp();
 
         setNavSideBar();
         setMusicsGrid();
+    }
+
+    private void initData() {
+        mRealmHelper = new RealmHelper();
+        mMusicSourceModel = mRealmHelper.getMusicSource();
     }
 
     private void initView() {
@@ -67,6 +80,9 @@ public class MainActivity extends AppCompatActivity {
         mDrawerLayout = fd(R.id.drawer_layout);
         // 侧边导航栏 NavigationView
         navView = fd(R.id.nav_view);
+        // View headerView = navView.getHeaderView(0);
+        // TextView tv_username = headerView.findViewById(R.id.username);
+        // tv_username.setText(UserHelper.getInstance().getUsername());
         // 网格歌单 RecyclerView
         mRvGrid = fd(R.id.rv_grid);
 
@@ -125,7 +141,8 @@ public class MainActivity extends AppCompatActivity {
     private void setMusicsGrid() {
         // 设置同一行，3个元素，即显示3个歌单
         mRvGrid.setLayoutManager(new GridLayoutManager(this, 3));
-        mMgAdapter = new MusicsGridAdapter(this);
+        // mMgAdapter = new MusicsGridAdapter(this);
+        mMgAdapter = new MusicsGridAdapter(this, mMusicSourceModel.getAlbum());
         // 传入 adapter 显示数据
         mRvGrid.setAdapter(mMgAdapter);
     }
@@ -134,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
      * 设置刷新圈圈颜色、刷新逻辑
      */
     private void setSwipeRefresh() {
-        swipeRefresh.setColorSchemeColors(R.color.mainColorH);
+//        swipeRefresh.setColorSchemeColors(R.color.mainColorH);
         swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -161,15 +178,6 @@ public class MainActivity extends AppCompatActivity {
                 // 调用 DrawerLayout 的 openDrawer() 展示滑动菜单
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 break;
-            case R.id.backup:
-                Toast.makeText(this, "You clicked Backup", Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.delete:
-                Toast.makeText(this, "You clicked Delete", Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.settings:
-                Toast.makeText(this, "You clicked Settings", Toast.LENGTH_SHORT).show();
-                break;
             default:
         }
         return true;
@@ -178,5 +186,11 @@ public class MainActivity extends AppCompatActivity {
     public void onUsernameOrIconClick(View view) {
         Intent intent = new Intent(this, MeActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mRealmHelper.close();
     }
 }
