@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MusicDemo</string>
+    <string name="app_name">网抑云音乐</string>
     <string name="nav_msg">我的消息</string>
     <string name="nav_setting">设置</string>
     <string name="nav_about">关于</string>

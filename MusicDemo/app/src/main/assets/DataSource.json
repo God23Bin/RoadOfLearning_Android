@@ -10,7 +10,7 @@
           "musicId": "101",
           "name": "Mood",
           "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
-          "path": "https://m801.music.126.net/20210604094449/1b89d7c352b4ff459f8d364bf7bdacc8/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
           "author": "24kGoldn / iann dior"
         },
         {
@@ -154,6 +154,966 @@
           "poster": "http://p2.music.126.net/SG_3x2i7vQLjtWZlBefmew==/943380976677888.jpg",
           "path": "http://m7.music.126.net/20210604104231/a82e5de6839f88be0fd754c4967daba7/ymusic/636b/e396/450b/b561660dfde86c8669f017f00312aee6.mp3",
           "author": "浜口史郎"
+        }
+      ]
+    },
+    {
+      "albumId": "4",
+      "name": "优质翻唱片段 ： 人间美好且值得",
+      "poster": "https://p.qpic.cn/music_cover/lHZmV75iahiaqHTkkyZd6TGlmxTdTwYCAQSPHF1fsjME0jDmLictyUW4Q/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "401",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "402",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "403",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "404",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "405",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "406",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "407",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "408",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "5",
+      "name": "国语翻唱|夏天会让暗恋变热恋吗",
+      "poster": "https://qpic.y.qq.com/music_cover/roWDxxbW3a9BbehWut5ictBFxr2GibIu5w89KicrbuVSKE6tN2par44icA/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "501",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "502",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "503",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "504",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "505",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "506",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "507",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "508",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "6",
+      "name": "治愈片段|你是温柔暮色笼罩我心",
+      "poster": "http://qpic.y.qq.com/music_cover/t3jTo9Z4pia2PFQsTOCoicdqpXInUbzZMXNYBd8TC5Qkxjt5ILceNZFg/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "601",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "602",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "603",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "604",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "605",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "606",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "607",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "608",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "7",
+      "name": "「欧美清新小调」吹进耳朵里的清风",
+      "poster": "http://p.qpic.cn/music_cover/DH8JRah2ic7e55nvLIqGcqxzvhkMwHpH4hrx464maG9lU6bfqN4JybQ/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "701",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "702",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "703",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "704",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "705",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "706",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "707",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "708",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "8",
+      "name": "全民K歌翻唱热歌榜盘点",
+      "poster": "https://p.qpic.cn/music_cover/Z7haT1p6eeic63oTvdlNb7xoHMYjBDlQict0ccSicdRpgLTicqoLHqtf9g/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "801",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "802",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "803",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "804",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "805",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "806",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "807",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "808",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "9",
+      "name": "史詩 | 震撼心靈 犹如浩瀚宇宙",
+      "poster": "https://qpic.y.qq.com/music_cover/B0Pybe3LoOVVhS03lA8l7ye5sUNGXTKIPibvHBhek8za19VVM6uDQ4A/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "901",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "902",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "903",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "904",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "905",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "906",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "907",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "908",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "10",
+      "name": "听完这首rap，去做个甜甜的梦吧",
+      "poster": "https://p.qpic.cn/music_cover/JoDiaOxjaqpvR6aWjxC9WpJ6GYlyLCDK0CeTmvicymjPdNt69Kwicudow/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1001",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1002",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1003",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1004",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1005",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1006",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1007",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1008",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "11",
+      "name": "中文说唱| 说唱一直在路上",
+      "poster": "https://qpic.y.qq.com/music_cover/ib6EsMhApgr893ia0JLThaTpw8N9NJxOnHhnWEzmlHJbTWHNhnSh9OaA/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1101",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1102",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1103",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1104",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1105",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1106",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1107",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1108",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "12",
+      "name": "学霸必备：专心写作业 享受轻音乐好时光",
+      "poster": "https://p.qpic.cn/music_cover/Cz8Z9ECDQia3gE2YticLiaJ22KNOu00Czu4RYkZmia3kAhUCYhiaPZ6qXQg/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1201",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1202",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1203",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1204",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1205",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1206",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1207",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1208",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "13",
+      "name": "失眠疗养所 : 300首催眠纯音",
+      "poster": "https://p.qpic.cn/music_cover/rs0wGJF4doYS9ubJ809ZBliaibaAzuDJ75o4tGe5XezDygzogd6pia2xw/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1301",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1302",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1303",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1304",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1305",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1306",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1307",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1308",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "14",
+      "name": "【古韵古风】寻觅中国风",
+      "poster": "https://qpic.y.qq.com/music_cover/oibKg7MB33YhPaQl8mCJWDEC8tbZC9guSXvSuzarAH09AYeKFPs9jOQ/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1401",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1402",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1403",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1404",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1405",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1406",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1407",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1408",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "15",
+      "name": "轻音助眠 : 柔动音符，渐入梦境",
+      "poster": "https://qpic.y.qq.com/music_cover/lg3MfRdmaAIKu4j4BWzVAfnlMquTD2Gunzgz7DjnPueUEwgUeDyg7A/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1501",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1502",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1503",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1504",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1505",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1506",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1507",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1508",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "16",
+      "name": "周深 | 温柔嗓音，清澈空灵",
+      "poster": "https://qpic.y.qq.com/music_cover/zQII3lJrGSNNoWObRlPoyialrRxLj32Za7rpbgQIzlMq6c9wicMyRqQg/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1601",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1602",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1603",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1604",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1605",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1606",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1607",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1608",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "17",
+      "name": "《游戏神曲》挑战自我 决战巅峰",
+      "poster": "https://qpic.y.qq.com/music_cover/lLIjmibUF1NrQu3XaJd7ickbjA83cp38tWmMiaLrYXKe25FphsnS9mgFw/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1701",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1702",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1703",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1704",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1705",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1706",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1707",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1708",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
+        }
+      ]
+    },
+    {
+      "albumId": "18",
+      "name": "古风女声控，优美旋律为你而来",
+      "poster": "https://qpic.y.qq.com/music_cover/GUalk7A0sBGvkxmUrXIf7KnEVGJFicuoT7xSkZLHiaEMB5Ojbccf6cbA/",
+      "playNum": "153.3万",
+      "list": [
+        {
+          "musicId": "1801",
+          "name": "Mood",
+          "poster": "http://p1.music.126.net/LfAiSYcf5FLgfvVtLzN77w==/109951165165797187.jpg",
+          "path": "https://m701.music.126.net/20210605122938/3223eea7f907f9469f7dc3fe378a7049/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/8698723562/a8df/92f7/6c9a/eb4cceb24d8b642f0dfe72ee4e020537.mp3",
+          "author": "24kGoldn / iann dior"
+        },
+        {
+          "musicId": "1802",
+          "name": "亲爱的旅人啊",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "https://m8.music.126.net/20210604094042/79106bb6d0a52825a9ce833ebe0ff593/ymusic/555f/525a/5258/b5f91cd86ce0046a6f70e249d0802a1e.mp3",
+          "author": "周深"
+        },
+        {
+          "musicId": "1803",
+          "name": "海底",
+          "poster": "http://p1.music.126.net/swcW0FE-__ihfjnJqU22Qg==/109951164696345792.jpg",
+          "path": "https://m801.music.126.net/20210604095841/0f7c4502593400fe23154bcb3568998b/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1682377598/cf45/a902/f89d/404b4307336ce2cb7924d278e67c3adf.mp3",
+          "author": "一支榴莲"
+        },
+        {
+          "musicId": "1804",
+          "name": "无心斗艳",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "https://m801.music.126.net/20210604095657/9fbce9eeabbb59c62cdfdd22c63c3c86/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1628996315/2f20/18ed/dcb7/11bd8a3fb8ce03e0927d6a3e4c486c63.mp3",
+          "author": "大布/苏泽龙"
+        },
+        {
+          "musicId": "1805",
+          "name": "可惜我是水瓶座",
+          "poster": "http://p2.music.126.net/8w4C39C2OY2fRANvkSXo9Q==/109951163270254519.jpg",
+          "path": "http://m8.music.126.net/20210604104442/160b09aa7ac097789a4212cb0b748182/ymusic/7fe6/8cfe/384b/a27485260c5abc3588f73d132bf53414.mp3",
+          "author": "杨千嬅"
+        },
+        {
+          "musicId": "1806",
+          "name": "你瞒我瞒",
+          "poster": "http://p1.music.126.net/FV16jXpxUSC0qy1lgbA3Gw==/109951165958579033.jpg",
+          "path": "http://m701.music.126.net/20210604104550/d8e664618de76b7ba7ad66152e9c9d0b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7132633874/cdf3/6014/562d/4f82e00354767e1ae3b89b2eb0797648.mp3",
+          "author": "陈柏宇"
+        },
+        {
+          "musicId": "1807",
+          "name": "Can't Hold Us",
+          "poster": "http://p2.music.126.net/xdiVy-xDwYrP86q6TgmZ4g==/109951164508089024.jpg",
+          "path": "http://m8.music.126.net/20210604104724/177050900ff061e7f934f89b4383bf53/ymusic/890a/4027/2891/8c41a1429a0e0994f37cb19fa39cd914.mp3",
+          "author": "Macklemore / Macklemore & Ryan Lewis"
+        },
+        {
+          "musicId": "1808",
+          "name": "Closer",
+          "poster": "http://p1.music.126.net/1YrCPOBV314i-mTtlDg8mQ==/109951164148664637.jpg",
+          "path": "http://m8.music.126.net/20210604104833/aecb85699601db9cd30cc61043945e37/ymusic/5c42/37de/a6fb/3b743a52bea4eff5b053e5025a647d6b.mp3",
+          "author": "The Chainsmokers / Halsey"
         }
       ]
     }
